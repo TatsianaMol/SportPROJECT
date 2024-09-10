@@ -24,19 +24,45 @@ html{
 .navigation {
     background-color: var(--accent-color);
 }
-.nav_common {
+.nav_menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
+    justify-content: space-evenly;
+    padding: 31px 0;
 }
 
-.nav_li {
+.nav_flex-menu{
     display: flex;
-    list-style-type:  none;
- 
-}
-.nav_li > li{
-    padding-right: 76px;
+    list-style-type: none;
+    
 }
 
+
+.nav_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_list >li{
+    padding-right: 31px;
+    margin-top: 10px;
+    margin-left: 31px;
+    
+}
+.nav_list >li:last-child{
+    padding-right: 0;
+    margin-top: 7.5px; 
+   
+}
+
+
+.nav_login>button{
+    border-radius: 200px;
+    width: 166px;
+    height: 50px;
+    color: var(--accent-color);
+    border-color: var(--text-color);
+}
+
+li>a{
+    text-decoration: none;
+}
