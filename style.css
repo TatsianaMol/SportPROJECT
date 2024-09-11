@@ -66,3 +66,46 @@ html{
 li>a{
     text-decoration: none;
 }
+.menu{
+    display: none;
+}
+
+
+/* Hero slider */
+
+.hero_slider {
+    background-image: url(img/Hero\ Slider.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 691px;
+}
+.hero_container {
+    
+}
+
+.hero_h1{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 77px;
+    width: 778px;
+    height: 172px;
+    text-align: center;
+}
+
+.hero_bth{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 237px;
+    height: 68px;
+    background-color: var(--accent-color);
+    border-radius: 200px;
+    border-color: transparent;
+}
